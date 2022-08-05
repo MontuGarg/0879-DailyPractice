@@ -23,4 +23,4 @@ switch(new Date().getDay()){
         day="Saturday";
         break;                        
 }
-document.getElementById("demo").innerHTML=day;
+document.getElementById("demo").innerHTML=day; 

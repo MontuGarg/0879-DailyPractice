@@ -10,25 +10,39 @@
             width: 70%;
             padding:2px;
             height: .8cm;
+            font-size: .6cm;
         }
         #square{
-            background-color: blue;
+            background-color: rgb(255, 132, 0);
             border: 1px solid black;
             width: 0px;
             height: 0px;
             margin: auto;
+            transition-delay: 1s;
+            
+            transition-property: width,height;
+            transition-timing-function:ease;
+            transition-duration: 3s;
         }
         #button{
             width: 30%;            
-            background-color: orange;
+            background-color: rgb(23, 22, 19);
             border: 2px solid black;
             border-radius: 3px;
             margin: auto;
             margin-top: 1%;
+            color:white;
+        }
+        h3{
+            color: white;
+        }
+        #p1{
+            font-size: .7cm;
+
         }
     </style>
 </head>
-<body style="background-color: gold;">
+<body style="background-color:  #293462">
     <div style="text-align: center;">
         <div style="margin:5%">
             <h3>Enter a number to create a Square Shape</h3>
